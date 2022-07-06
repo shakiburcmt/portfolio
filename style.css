@@ -15,7 +15,7 @@ p {
     text-align: justify;
 }
 
-section {
+.flexible-container {
     display: flex;
     padding-left: 20px;
 }
@@ -50,4 +50,31 @@ section {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.new-width {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+}
+
+.final {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#gittu {
+    border-left: 7px solid tomato;
+}
+
+#real {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
