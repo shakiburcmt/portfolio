@@ -1,0 +1,47 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.kitkat {
+    color: chocolate;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    padding-left: 20px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.button,
+.resume {
+    text-decoration: none;
+    background-image: linear-gradient(orange, yellow);
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 900;
+}
+
+.bg-image {
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
